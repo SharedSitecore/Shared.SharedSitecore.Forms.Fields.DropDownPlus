@@ -1,0 +1,42 @@
+﻿---
+ID: "742f67dd-fe82-4008-a003-80258a47f6d4"
+Parent: "371f5ae1-fe66-42cd-b1b8-2c2248b64387"
+Template: "3b49c8d4-291a-4db3-b140-3c99e06407f8"
+Path: /sitecore/Forms/SharedSitecore/Forms/Fields/DropDownPlus/Form/Main/DropDownPlus
+DB: master
+SharedFields:
+- ID: "4def4415-d7df-4cc9-819f-0714f8ce9416"
+  Hint: Title Override
+  Value: To
+- ID: "4e6d538a-5d8f-4ad3-91f5-b974f266a9fd"
+  Hint: Show Values
+  Type: Checkbox
+  Value: 0
+- ID: "5d09f88a-0e2a-4f87-8151-af4a2aa26ec3"
+  Hint: Value Provider
+  Value: "{6110ADCE-9B36-43A7-B8A7-89503F47D591}"
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 7ED88926680F4880857110C514E2C65E
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f6696439-2dac-4183-8f3d-1979188d8336"
+  Hint: Value Provider Parameters
+  Value: "querystring:id|email;name"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210424T173141Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

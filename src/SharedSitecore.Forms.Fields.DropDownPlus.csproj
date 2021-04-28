@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net471</TargetFramework>
+		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+		<Version>0.0.1</Version>
+		<PackageId>SharedSitecore.Forms.Fields.DropDownPlus</PackageId>
+		<Description>Sitecore Forms DropDown field</Description>
+		<Copyright>Copyright ©  2020</Copyright>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageProjectUrl>https://github.com/SitecoreDave/SharedSitecore.Forms.Fields.DropDownPlus</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/SitecoreDave/SharedSitecore.Forms.Fields.DropDownPlus</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>sitecore forms fields dropdown</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Sitecore.ExperienceForms.Client" Version="9.3.0" />
+		<PackageReference Include="Sitecore.ExperienceForms.Mvc" Version="9.3.0" />
+		<PackageReference Include="Sitecore.Kernel" Version="9.3.0" />
+	</ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="IF &quot;$(ConfigurationName)&quot; == &quot;Debug&quot; (Powershell.exe -ExecutionPolicy Unrestricted -file D:\repos\SharedSitecore\SharedSitecore.DeploySitecoreProject\Deploy-SitecoreProject.ps1 $(ProjectDir))" />
+	</Target>
+
+</Project>

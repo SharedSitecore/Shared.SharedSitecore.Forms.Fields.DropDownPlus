@@ -1,0 +1,42 @@
+﻿---
+ID: "6d662449-97ff-4e14-b6a0-08abf3341ec1"
+Parent: "3b49c8d4-291a-4db3-b140-3c99e06407f8"
+Template: "3b49c8d4-291a-4db3-b140-3c99e06407f8"
+Path: /sitecore/templates/System/Forms/Fields/SharedSitecore/DropDownPlus/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/sort_down_plus.png
+- ID: "467c22b4-b1a2-4620-b8bb-74c2d8b369fc"
+  Hint: Label Css Class
+  Value: "form-label"
+- ID: "4e6d538a-5d8f-4ad3-91f5-b974f266a9fd"
+  Hint: Show Values
+  Type: Checkbox
+  Value: 1
+- ID: "589a7ade-81d4-4a60-b9e2-7eaf6ae8a563"
+  Hint: Field Type
+  Value: "{F6CE254F-ABE0-4F32-BB67-3B29FBE50F23}"
+- ID: "5c61986c-4f96-4dd6-baf1-8d4f1c395db7"
+  Hint: Show Empty Item
+  Type: Checkbox
+  Value: 1
+- ID: "5ed666c7-b92b-40b8-93f3-41ed3693e0a9"
+  Hint: Show Items
+  Type: Checkbox
+  Value: 1
+- ID: "7abaa3f6-6ec0-4b65-a463-7919bfae55aa"
+  Hint: Css Class
+  Value: "form-control"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T102906Z
+    - ID: "71ffd7b2-8b09-4f7b-8a66-1e4cef653e8d"
+      Hint: Title
+      Value: DropDownPlus

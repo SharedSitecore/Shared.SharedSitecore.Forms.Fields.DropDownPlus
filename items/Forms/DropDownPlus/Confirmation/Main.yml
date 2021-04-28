@@ -1,0 +1,25 @@
+﻿---
+ID: "57f08d18-d4a4-435a-ba26-b1eee0d5b21a"
+Parent: "d939f0ee-35ef-42e1-9e05-0de815c06508"
+Template: "8cddb194-f456-4a75-89b7-346f8f39f95c"
+Path: /sitecore/Forms/SharedSitecore/Forms/Fields/DropDownPlus/Confirmation/Main
+DB: master
+SharedFields:
+- ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
+  Hint: Conditions
+  Value: |
+    {"fieldConditions":[]}
+- ID: "84ece662-5034-40cb-9c60-744db64bb294"
+  Hint: Field Key
+  Value: 72CCD9F0AE1A4D37A22E6B21A0E1E667
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210308T213336Z

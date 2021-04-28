@@ -1,0 +1,14 @@
+﻿---
+ID: "7eab6a37-77b2-4ba0-892a-8acb3ba4b646"
+Parent: "a07eb2d3-f0bf-4c92-af71-38c9f7966d58"
+Template: "72e58860-ac29-47e1-a1c5-8f9e492db999"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/SharedSitecore/DropDownPlus
+DB: core
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161017T123230Z

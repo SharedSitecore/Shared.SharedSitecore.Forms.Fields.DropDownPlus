@@ -1,0 +1,18 @@
+﻿---
+ID: "2e273145-3249-4027-b917-0b261bd9131e"
+Parent: "61d0040d-2b81-463e-a1de-fee5c4088487"
+Template: "6abee1f2-4ab4-47f0-ad8b-bdb36f37f64c"
+Path: /sitecore/Forms/SharedSitecore/Forms/Fields/DropDownPlus
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210308T213336Z

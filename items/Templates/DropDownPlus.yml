@@ -1,0 +1,32 @@
+﻿---
+ID: "3b49c8d4-291a-4db3-b140-3c99e06407f8"
+Parent: "d9a509ac-54fc-44e0-8d68-345a5d89c131"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/System/Forms/Fields/SharedSitecore/DropDownPlus
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/sort_down_plus.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {5B672865-55D2-413E-B699-FDFC7E732CCF}
+    {84ED565A-BEC9-46D4-9603-6E0516580832}
+    {50938E2F-E169-47C4-975A-3A97BC945538}
+    {5CD380B6-BD27-45C0-BCEB-47CBBD5360E0}
+    {5551CB12-8E44-433C-A68E-129B8E5A52E9}
+    {0EDD0CBA-AE94-45C0-9A1D-A214B55036BF}
+    {923F0E49-35C0-46E6-9D0B-CE33F968EA1A}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{6D662449-97FF-4E14-B6A0-08ABF3341EC1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161125T100118Z

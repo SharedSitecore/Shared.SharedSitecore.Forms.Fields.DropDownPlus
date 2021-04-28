@@ -1,0 +1,47 @@
+﻿---
+ID: "f6ce254f-abe0-4f32-bb67-3b29fbe50f23"
+Parent: "57ce297c-5b57-4833-b107-cde1086c9bf4"
+Template: "a60edcaf-1285-46b5-8380-d790bb8c8708"
+Path: /sitecore/system/Settings/Forms/Field Types/SharedSitecore/DropDownPlus
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/sort_down_plus.png
+- ID: "12594037-53e5-44c0-ad63-deb52dead374"
+  Hint: View Path
+  Value: FieldTemplates/SharedSitecore/DropDownPlus
+- ID: "16882a65-d10b-4e9e-9d6a-b13480a34f2d"
+  Hint: Model Type
+  Value: SharedSitecore.Forms.Fields.DropDownPlus.DropDownPlusViewModel, SharedSitecore.Forms.Fields.DropDownPlus
+- ID: "73f3c325-9b2a-4854-b698-038e06887fcd"
+  Hint: Property Editor
+  Value: "{7EAB6A37-77B2-4BA0-892A-8ACB3BA4B646}"
+- ID: "8e45815d-adcd-4dd9-9e20-fefdb01aad8a"
+  Hint: BackgroundColor
+  Value: Steel
+- ID: "8f40d151-4155-4564-b343-fa445410e3e0"
+  Hint: Icon
+  Value: OfficeWhite/32x32/sort_down_plus.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "f2322bb9-bf52-45a6-a969-ac3735cc7cbf"
+  Hint: Field Template
+  Value: "{3B49C8D4-291A-4DB3-B140-3C99E06407F8}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160603T112202Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

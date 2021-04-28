@@ -1,0 +1,29 @@
+﻿---
+ID: "f0c535c5-f3b1-4d79-8a09-04c161e7e21e"
+Parent: "d6468a89-3b65-4922-9784-2ce8dc2e7394"
+Template: "ad75c314-f983-4c56-81d5-dc10d5ccf4ef"
+Path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/SharedSitecore/DropDownPlus/ListItems/ShowValues
+DB: core
+SharedFields:
+- ID: "3e079fc3-6b2d-41c9-9204-374a786fc761"
+  Hint: BindingConfiguration
+  Value: showItems=Value
+Languages:
+- Language: en
+  Fields:
+  - ID: "c2eef859-324b-4e58-bd2e-e9697c3887e1"
+    Hint: Label
+    Value: Show Values
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210426T020113Z
+    - ID: "3885a716-2eed-47ae-9132-32225f0458ff"
+      Hint: FormLabel
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
