@@ -8,6 +8,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 
+- ID: "c0e276bb-8807-40aa-8138-e5c38b0c5dab"
+  Hint: __Quick Actions
+  Type: Multilist
+  Value: "{BDD029E4-5E8F-4ECE-A8E4-28A411A2AC01}"
 Languages:
 - Language: en
   Versions:

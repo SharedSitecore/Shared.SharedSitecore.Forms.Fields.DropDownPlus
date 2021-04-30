@@ -44,6 +44,12 @@ namespace SharedSitecore.Forms.Fields.DropDownPlus.Pipelines
             if (viewModel.ShowValues || viewModel.IsDynamic) return;
 
             var value = string.Join(",", viewModel.Value);
+
+            if (string.IsNullOrEmpty(value) && !string.IsNullOrEmpty(viewModel.DefaultSelection))
+            {
+                value = viewModel.DefaultSelection;
+                //viewModel.Value = new System.Collections.Generic.List<string>() { value };
+            }
             if (string.IsNullOrEmpty(value)) return;
 
             var values = value.Split(',');
@@ -58,8 +64,8 @@ namespace SharedSitecore.Forms.Fields.DropDownPlus.Pipelines
                     var it = Context.Database.GetItem(valueId);
                     if (it != null)
                     {
-                        var itemValue = !string.IsNullOrEmpty(viewModel.ValueFieldName) && it.Fields[viewModel.ValueFieldName] != null ? it.Fields[viewModel.ValueFieldName].ToString() : it.DisplayName;
-
+                        //TODO: Add a new ValueFieldName for the 'lookup item'?? NO.. this SHOULD all go away and use the freaking ValueProvider! Why isn't not coming through?
+                        var itemValue = it.Fields["email"] != null ? it.Fields["email"].ToString() : !string.IsNullOrEmpty(viewModel.ValueFieldName) && it.Fields[viewModel.ValueFieldName] != null ? it.Fields[viewModel.ValueFieldName].ToString() : it.DisplayName;
                         if (!string.IsNullOrEmpty(itemValue) && itemValue != (viewModel.Value == null ? string.Empty : string.Join(",", viewModel.Value)))
                         {
                             viewModel.Value = itemValue.Split(',').ToList();

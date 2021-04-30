@@ -15,6 +15,10 @@ SharedFields:
 - ID: "5d09f88a-0e2a-4f87-8151-af4a2aa26ec3"
   Hint: Value Provider
   Value: "{6110ADCE-9B36-43A7-B8A7-89503F47D591}"
+- ID: "5ed666c7-b92b-40b8-93f3-41ed3693e0a9"
+  Hint: Show Items
+  Type: Checkbox
+  Value: 0
 - ID: "71c6de8e-4718-4977-b83e-b49552ee14b0"
   Hint: Conditions
   Value: |
